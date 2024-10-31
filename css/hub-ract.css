@@ -1,0 +1,189 @@
+@CHARSET "ISO-8859-1";
+
+/* ----- Results Table Format ----- */
+.hub_ract_block {
+	padding: 10px;
+	background-color: #fafafa;
+	border: 1px solid #ededed;
+}
+
+/* ----- Results Table Format ----- */
+
+div.hub-ract-wrap {
+	width: 100%;
+	padding-bottom: 20px;
+	/*border: 1px solid red;*/
+}
+
+div.hub-ract-admin {
+	max-width: 800px;
+	padding-bottom: 20px;
+	/*border: 1px solid red;*/
+}
+
+.hub-ract-wrap p {
+	margin: 20px 0 20px 0;
+}
+
+table.hub-ract-table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+
+.hub-ract-table th, .hub-ract-table td {
+	text-align: left;
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.hub-ract-table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #51a947;
+	color: white !important;
+}
+
+tr.ract_table_hdr td{
+	background-color: #b8d6ba;
+	font-weight: bold;
+}
+
+.hub-ract-table tr:nth-child(even) {background-color: #fafafa;}
+
+.hub-ract-table tr:hover {background-color: #d9d9d8;}
+
+/* ----- Chart Canvas ----- */
+
+canvas.hub_ract_canvas {
+    max-width: 900px;
+    max-height: 900px;
+    border: 1px solid #fefefe;
+    margin: 15px 5px;
+	padding: 20px
+}
+
+#hub_ract_chart_container {
+    max-width: 800px;
+    height: 1800px;
+    padding-bottom: 20px;
+}
+
+#hub_ract_chart_container hr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fafafa;
+}
+
+.hub_ract_fade {
+    color: #ababab;
+}
+
+/* ----- Options / Settings Table Format ----- */
+
+#hub-ract-main-api-form td,  #hub-ract-main-api-form th {
+	padding: 14px !important;
+}
+
+tr.hub-ract-input-hdr {
+	background: #dedede;
+}
+
+/* ----- Option Page Buttons ----- */
+
+#hub-ract-license-key-value, #hub-ract-main-options-form{
+	display: none;
+}
+
+#hub-ract-api-key-value, #hub-ract-main-api-form{
+	display: none;
+}
+
+#hub_ract_btn_confirm {
+    display: none;
+	color: #ff0000;
+}
+
+/* ----- Results Table Format ----- */
+
+div.hub_ract_notes {
+    padding-bottom: 15px;
+}
+
+.hub_ract_notes h4 {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.hub_ract_notes li {
+    font-size: 0.8em;
+    margin: 0 15px;
+    line-height: 1.2em;
+    font-style: italic;
+}
+
+.hub_ract_notes p {
+    font-size: 0.8em;
+    margin: 0 15px;
+    line-height: 1.2em;
+    font-style: italic;
+}
+
+.hub-ract-help {
+	cursor: help;
+}
+
+a.ract_link span.dashicons {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+.ract_tooltip {
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.3);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    /*position: relative;
+    top: -100px;
+    right: 350px;*/
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    display: none;
+}
+
+.ract_tooltip {
+    z-index:1000;
+}
+
+.ract_link {
+    display: block;
+    width: 9%;
+}
+
+.ract_link:hover + .ract_tooltip {
+    display: block;
+}
+
+.ract_tooltip:hover {
+    display: block;
+}
+
+.ract_spinner {
+    display: block;
+    width: 320px;
+    height: 226px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('busy01.gif') no-repeat;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+

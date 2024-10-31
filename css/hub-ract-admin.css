@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+
+/* ----- Option Page Buttons ----- */
+
+#hub-ract-license-key-value, #hub-ract-main-options-form{
+	display: none;
+}
+
+#hub-ract-api-key-value, #hub-ract-main-api-form{
+	display: none;
+}
